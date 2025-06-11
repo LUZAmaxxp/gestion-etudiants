@@ -1,0 +1,125 @@
+/* Styles personnalisés pour le composant de liste des étudiants */
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn-group .btn {
+  margin: 0 1px;
+}
+
+.badge {
+  font-size: 0.75rem;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.alert {
+  border-radius: 0.375rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn {
+  border-radius: 0.375rem;
+}
+
+.pagination .page-link {
+  border-radius: 0.375rem;
+  margin: 0 2px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+
+/* Animation pour les messages d'alerte */
+.alert {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+  
+  .btn-group .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .badge {
+    font-size: 0.7rem;
+  }
+}
+
+/* Styles pour les icônes Bootstrap */
+.bi {
+  line-height: 1;
+}
+
+/* Amélioration de l'accessibilité */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+/* Styles pour les états de chargement */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Styles pour les messages vides */
+.text-muted {
+  color: #6c757d !important;
+}
+
+.display-4 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+} 
