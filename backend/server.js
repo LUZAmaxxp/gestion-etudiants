@@ -14,23 +14,23 @@ const config = {
   user: process.env.DB_USER || "sa",
   password: process.env.DB_PASSWORD || "YourStrong@Passw0rd",
   server: process.env.DB_HOST || "localhost",
-  port: 1433, // Make sure port is a number
+  port: 1433,
   database: process.env.DB_NAME || "AzureHaven",
-  // Move encrypt and trustServerCertificate to root level
+  
   encrypt: process.env.DB_ENCRYPT === "true" || true,
   trustServerCertificate:
     process.env.DB_TRUST_SERVER_CERTIFICATE === "true" || true,
   enableArithAbort: true,
-  // Connection timeout settings
-  connectionTimeout: 60000, // 60 seconds
-  requestTimeout: 60000, // 60 seconds
+
+  connectionTimeout: 60000, 
+  requestTimeout: 60000, 
   pool: {
     max: 10,
     min: 0,
     idleTimeoutMillis: 30000,
   },
   options: {
-    // Keep additional options here if needed
+
     useUTC: true,
     dateFirst: 1,
   },
