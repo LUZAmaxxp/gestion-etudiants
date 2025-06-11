@@ -1,6 +1,6 @@
 # Application de Gestion des Étudiants
 
-Une application CRUD complète pour la gestion des étudiants, développée avec Angular (frontend), Node.js/Express (backend) et MySQL (base de données).
+Une application CRUD complète pour la gestion des étudiants, développée avec Angular (frontend), Node.js/Express (backend) et MSSQL (base de données).
 
 ## 🚀 Fonctionnalités
 
