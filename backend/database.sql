@@ -4,7 +4,7 @@ USE gestion_etudiants;
 
 -- Création de la table etudiant
 CREATE TABLE IF NOT EXISTS etudiant (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
     prenom VARCHAR(100) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
