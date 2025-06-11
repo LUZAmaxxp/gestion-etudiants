@@ -11,13 +11,6 @@ if ! command -v node &> /dev/null; then
     exit 1
 fi
 
-# Vérifier si MySQL est en cours d'exécution
-echo "🔍 Vérification de la connexion MySQL..."
-if ! mysql -u root -e "SELECT 1" &> /dev/null; then
-    echo "⚠️  Attention: MySQL ne semble pas être démarré ou accessible."
-    echo "   Veuillez démarrer MySQL avant de continuer."
-    echo ""
-fi
 
 # Démarrer le backend
 echo "📡 Démarrage du serveur backend..."
