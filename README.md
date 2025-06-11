@@ -46,15 +46,11 @@ cd gestion-etudiants
 
 ### 2. Configuration de la base de données
 
-1. **Créer la base de données MySQL** :
+1. **Créer la base de données MSSQL** :
    ```sql
    CREATE DATABASE gestion_etudiants;
    ```
 
-2. **Exécuter le script SQL** :
-   ```bash
-   mysql -u root -p gestion_etudiants < backend/database.sql
-   ```
 
 3. **Configurer les variables d'environnement** :
    - Copier `backend/config.env` vers `backend/.env`
