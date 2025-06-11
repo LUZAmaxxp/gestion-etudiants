@@ -35,7 +35,7 @@ Une application CRUD complète pour la gestion des étudiants, développée avec
 ## 📋 Prérequis
 
 - Node.js (version 18 ou supérieure)
-- MySQL (version 5.7 ou supérieure)
+- MSSQL 
 - npm ou yarn
 
 ## 🚀 Installation
